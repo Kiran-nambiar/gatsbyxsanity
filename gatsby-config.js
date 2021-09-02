@@ -7,8 +7,14 @@ module.exports = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: "gatsbyxsanity",
-        dataset: "",
+        projectId: "hdeyuxv8",
+        dataset: "production",
+        // To enable preview of drafts, copy .env-example into .env,
+        // and add a token with read permissions
+        token:
+          "sk3tk9v8QWOgxeM3uyBki48EJ6ocGys5GKbDy3bLChhothjaYvF0V6biB3y0hdOuimxRUcK7KbIlDvKZF",
+        watchMode: true,
+        overlayDrafts: true,
       },
     },
     "gatsby-plugin-styled-components",
