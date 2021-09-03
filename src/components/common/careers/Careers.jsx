@@ -7,7 +7,7 @@ const Careers = () => {
 
     const data = useStaticQuery(graphql`
         query MyQuery {
-            sanitySummary(id: {ne: "08367798-19bf-4ac5-a447-48e3f82f35a4"}) {
+            sanitySummary(id: {in: "-0dbda172-a6cd-5e1c-8d86-d59ac6d3f857"}) {
                  title
                  buttonText
                  link

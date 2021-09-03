@@ -6,7 +6,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 export default function Index() {
   const data = useStaticQuery(graphql`
     query BannerQuery {
-      sanityBanner(id: { ne: "814d0f4a-74da-4be6-bf7d-04d4283ae754" }) {
+      sanityBanner(id: { in: "-05078ba4-5ed5-5c85-a990-146a131fd8fc" }) {
         title
         _id
         bannerImage {
